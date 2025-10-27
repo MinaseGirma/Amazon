@@ -48,8 +48,8 @@ const totalitem = basket.reduce((amount, item) => {
         <div className="header__right">
           <div className="header__language common_style">
             <img
-              src="https://flagcdn.com/w20/fr.png"
-              alt="French"
+              src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"
+              alt="US Flag"
               className="header__flag"
             />
             <select>
@@ -78,7 +78,7 @@ const totalitem = basket.reduce((amount, item) => {
 
           <div className="header__orders common_style">
             <Link to="/order">
-              <p className="header__small">Returns</p>
+              <p className="header__bold">Returns</p>
               <p className="header__bold">& Orders</p>
             </Link>
           </div>
